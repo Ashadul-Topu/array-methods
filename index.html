@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>array find methods | find(), findIndex() </title>
+</head>
+<body>
+    <p>array find methods | find(), findIndex() </p>
+
+    <script>
+
+        // find methods
+        // find even number from array using find method
+        let numbers = [11, 23, 26, 30, 33, 34]
+        const firstEvenNumber = numbers.find( x => x%2===0 ); // it show only first even number 
+        console.log(firstEvenNumber);
+
+        // findIndex method
+        // find index from array using find index method
+        const firstEvenNumberIndex = numbers.findIndex( x => x%2===0 ); // it show only first even number index
+        console.log(firstEvenNumberIndex);
+    </script>
+</body>
+</html>
